@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Hotel</title>
+    <link rel="stylesheet" href="At01CSS.css">
+</head>
+<body>
+
+    <header class="cabecalho-principal">
+        <h1>Hotel Paraíso das Águas</h1>
+        <p class="texto-destaque">Garanta suas férias inesquecíveis preenchendo o formulário de reserva abaixo.</p>
+    </header>
+
+    <main class="secao-conteudo">
+        <form action="#" method="POST" class="formulario-reserva">
+            
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" class="campo-padrao" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail para contato:</label>
+            <input type="email" id="email" name="email" class="campo-padrao" placeholder="exemplo@email.com" required>
+
+            <label for="data-checkin">Data de Check-in:</label>
+            <input type="date" id="data-checkin" name="data-checkin" class="campo-padrao" required>
+
+            <label for="tipo-quarto">Tipo de Quarto:</label>
+            <select id="tipo-quarto" name="tipo-quarto" class="campo-padrao">
+                <option value="standard">Standard (Simples)</option>
+                <option value="luxo">Luxo (Vista para o mar)</option>
+                <option value="presidencial">Suíte Presidencial</option>
+            </select>
+
+            <label>Pacote de Refeições:</label>
+            <div class="grupo-opcoes">
+                <input type="radio" id="cafe" name="refeicao" value="cafe" checked>
+                <label for="cafe" class="label-inline">Apenas Café da Manhã</label>
+                
+                <input type="radio" id="completa" name="refeicao" value="completa">
+                <label for="completa" class="label-inline">Pensão Completa</label>
+            </div>
+
+            <label for="observacoes">Pedidos Especiais ou Observações:</label>
+            <textarea id="observacoes" name="observacoes" class="campo-padrao" rows="4" placeholder="Ex: Berço extra, alergias alimentares..."></textarea>
+
+            <div class="grupo-opcoes">
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos" class="label-inline">Aceito os termos e políticas de cancelamento do hotel.</label>
+            </div>
+
+            <button type="submit" class="botao-enviar">Confirmar Reserva</button>
+        </form>
+    </main>
+
+    <footer class="rodape-pagina">
+        <p><strong>Integrantes da Dupla:</strong> Enzo Costa e Higor Sandes</p>
+        <p><strong>Data da Atividade:</strong> 16 de Junho de 2026</p> <p><strong>Disciplina:</strong> Programação Web 1</p>
+    </footer>
+
+</body>
+</html>

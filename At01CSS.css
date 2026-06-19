@@ -1,0 +1,138 @@
+/* =========================================
+   SELETORES DE ELEMENTOS (Tags HTML)
+   ========================================= */
+
+body {
+    background-color: #eef2f5; /* Cor de fundo da página */
+    font-family: Arial, sans-serif; /* Fonte personalizada */
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Cor do texto padrão */
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center; /* Alinhamento do texto */
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* =========================================
+   SELETORES DE CLASSE (Mínimo de 5 exigidos)
+   ========================================= */
+
+/* 1. Classe para o cabeçalho */
+.cabecalho-principal {
+    background-color: white;
+    padding: 30px;
+    border-bottom: 3px solid #0056b3;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+/* 2. Classe para o texto de apresentação */
+.texto-destaque {
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+    margin-top: 0;
+}
+
+/* 3. Classe para alinhar o conteúdo principal */
+.secao-conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
+/* 4. Classe para o formulário (Estilização de bordas, sombras e fundo) */
+.formulario-reserva {
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    /* Cantos arredondados e Borda */
+    border: 1px solid #cccccc;
+    border-radius: 10px; 
+    /* Sombra exigida na atividade */
+    box-shadow: 2px 2px 8px gray; 
+}
+
+/* 5. Classe para os campos de entrada (Inputs, Selects, Textareas) */
+.campo-padrao {
+    width: 100%;
+    /* Espaçamento interno */
+    padding: 10px; 
+    /* Margem e Bordas */
+    margin-top: 5px;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    /* Evita que o padding quebre a largura de 100% */
+    box-sizing: border-box; 
+}
+
+/* Efeito ao clicar no campo (Foco) */
+.campo-padrao:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
+}
+
+/* 6. Classe para agrupar radios e checkboxes */
+.grupo-opcoes {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px dashed #cccccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* 7. Classe para labels que ficam na mesma linha (radios/checkbox) */
+.label-inline {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+/* 8. Classe para o Botão de Envio */
+.botao-enviar {
+    background-color: #0056b3;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px; /* Cantos arredondados no botão */
+    cursor: pointer; /* Muda o cursor do mouse */
+}
+
+/* Efeito de hover e transparência no botão */
+.botao-enviar:hover {
+    opacity: 0.8; /* Transparência exigida na folha de CSS */
+}
+
+/* 9. Classe para o Rodapé */
+.rodape-pagina p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+
